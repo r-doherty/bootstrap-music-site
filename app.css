@@ -1,6 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: white;
     font-family: "Oswald", sans-serif;
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.blurb p {
+    line-height: 2;
+    font-weight: 300;
+}
+
+.content {
+    margin-bottom: 100px;
 }
 
 #mainNavbar {
@@ -10,6 +29,7 @@ body {
 
 #mainNavbar .nav-link {
     color: black;
+    font-weight: 400;
 }
 
 #mainNavbar .nav-link:hover {
@@ -25,20 +45,20 @@ body {
     font-size: 4rem;
 }
 
+.navbar.scrolled {
+    background: white;
+    transition: background 200ms;
+}
+
+footer {
+    font-weight: 200;
+}
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-size: 3rem;
     }
-}
-
-@media (max-width: 1000px) {
     .lead {
         font-size: 1rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .lead {
-        line-height: 2em;
     }
 }
