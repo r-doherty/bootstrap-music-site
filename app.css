@@ -1,0 +1,44 @@
+body {
+    background: white;
+    font-family: "Oswald", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rems;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#headingGroup span {
+    color: red;
+}
+
+#headingGroup h1 {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .lead {
+        line-height: 2em;
+    }
+}
